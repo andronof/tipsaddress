@@ -1,0 +1,50 @@
+
+#components-input-address {
+    padding: 10px;
+}
+.autoaddress {
+    max-width: 600px;
+    width: 100%;
+    margin:0 auto;
+    position: relative;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.autoaddress .autoaddress-input {
+    width: 100%;
+    height:30px;
+    border-radius: 4px;
+    padding:4px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+.autoaddress .autoaddress-list {
+    list-style-type: none;
+    top: 30px;
+    left:0;
+    width: 100%;
+    border:1px solid #e1dee8;
+    margin:0;
+    padding:0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 9999;
+    background: #fff;
+}
+.autoaddress .autoaddress-list .autoaddress-list-li {
+    border-bottom: 1px solid #e1dee8;
+    height:30px;
+    line-height:30px;
+    padding:4px;
+    font-size: 14px;
+    cursor:pointer;
+}
+.autoaddress .autoaddress-list .autoaddress-list-li:last-child {
+    border-bottom: none;
+}
+.autoaddress .autoaddress-list .autoaddress-list-li.active, .autoaddress .autoaddress-list .autoaddress-list-li:hover {
+    background: #d2d2e8;
+
+}

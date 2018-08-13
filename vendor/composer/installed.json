@@ -1,0 +1,55 @@
+[
+    {
+        "name": "smi2/phpclickhouse",
+        "version": "0.17.02",
+        "version_normalized": "0.17.02.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/smi2/phpClickHouse.git",
+            "reference": "544d4e062e50ad805f14dd9c89475b3651490526"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/smi2/phpClickHouse/zipball/544d4e062e50ad805f14dd9c89475b3651490526",
+            "reference": "544d4e062e50ad805f14dd9c89475b3651490526",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "ext-curl": "*",
+            "phpunit/phpunit": ">=5.5.0"
+        },
+        "time": "2017-02-20T13:07:44+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "include.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Igor Strykhar",
+                "email": "isublimity@gmail.com",
+                "homepage": "https://github.com/isublimity"
+            }
+        ],
+        "description": "php ClickHouse client library",
+        "homepage": "https://github.com/smi2/phpClickHouse",
+        "keywords": [
+            "clickhouse",
+            "client",
+            "curl",
+            "driver",
+            "http",
+            "http client"
+        ]
+    }
+]
